@@ -5,7 +5,9 @@
 #include <unistd.h>
 
 
+#define PORT 8080
 
+void *handle_client(void* arg);
 
 int main(int argc, char* argv[])
 {
